@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+ .flex-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 669px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FCDBE1;
+    margin-top: 0px;
+    background-image: url("yuva_bg.png");
+  }
+  .flex-container2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 669px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FFEFCF;
+    margin-top: 223px;
+    background-image: url("Image\ Olyumpus.png");
+
+  }
+  .flex-container3 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 669px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #EED2A8;
+    margin-top: 229px;
+    background-image: url("aurum.png");
+  }
+  .flex-container4{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 669px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #99CFEE;
+    margin-top: 1152px;
+    background-image: url("verve.png");
+
+  }
+  .flex-container5 {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("last1.png");
+            width: 100%;
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .p {
+            text-align: center;
+            margin: 0;
+            background-color: #99CFEE;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .button {
+            width: 150px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            font-size: 15px;
+            background-color: white;
+            box-shadow: 0 2px 4.9px rgba(0, 0, 0, 0.25);
+            margin-top: 20px;
+        }
+        
+
+
+
+  .text {
+    flex: 1;
+    width: 35%;
+    font-size: 27px;
+    right: 500px;
+    margin-left: 0.1%;
+    margin-top: -27px;
+  }
+  .text1 {
+    flex: 1;
+    font-size: 27px;
+    max-width: 45%;
+    margin-left: 6%;
+    margin-top: -23px;
+    z-index: 1;
+    
+  }
+  .text4 {
+    flex: 1;
+    font-size: 27px;
+    max-width: 45%;
+    margin-top: -23px;
+    margin-right: 5%;
+    z-index: 1;
+    
+  }
+
+    .image {
+      position: relative;
+      flex: 1;
+      width: 100%;
+      text-align: center;
+    }
+
+    .Yuva_Image {
+      /* Take 100% width of the container */
+      margin: 0 auto; /* Center the image horizontally */
+      height: 328px;
+      width: 534px;
+      
+    }
+
+
+    .additional-image,
+    .additional-image1 {
+      position: absolute;
+      max-width: 100%;
+      height: auto;
+    }
+
+    
+    .additional-image3 {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: 643px;
+      margin-top: -25px;
+    }
+    
+    .transition_olympus{
+     position: absolute;
+      width: 100%;
+      height: auto;
+      top: 630px;
+      margin-top: 917px;
+    }
+    .transition_aurum{
+      position: absolute;
+      width: 100%;
+      height: auto;
+      top: 1532px;
+      margin-top: 917px;
+    }
+  
+@media screen and (max-width: 768px) {
+
+.additional-image3 {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 96.1%;
+}
+.transition_olympus{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 101.5%;
+}
+.transition_aurum{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 216.1%;
+}
+    
+.text {
+    width: 100%;
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+.text1 {
+    width: 100%;
+    min-width: 75%;
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+.text4 {
+    width: 100%;
+    min-width: 85%;
+    font-size: 27px;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+.flex-container {
+    flex-direction: column;
+    height: auto;
+}
+.flex-container2 {
+    flex-direction: column;
+    height: auto;
+    margin-top: 78px;
+    top: 0px;
+}
+.flex-container3 {
+    flex-direction: column;
+    height: auto;
+    margin-top: 1783px;
+    top: 0px;
+}
+.flex-container4 {
+    flex-direction: column;
+    height: auto;
+    margin-top: 956px;
+    top: 0px;
+}
+.Yuva_Image {
+    max-width: 100%; /* Set the image to be responsive to the container */
+    height: auto; /* Maintain aspect ratio */   
+  }
+.Olympus_Image{
+    max-width: 100%; /* Set the image to be responsive to the container */
+    height: auto;
+}
+
+}
+@media (max-width: 768px) {
+            .flex-container5 {
+                background-size: cover;
+            }
+
+            .image-container {
+                grid-template-columns: 1fr;
+                padding: 0 10px;
+            }
+
+          
+        }
+
+  </style>
+</head>
+
+<body>
+  <!-- Yuva -->
+  <div class="flex-container">
+
+    <div class="image">
+        <div class="Yuva_Image">
+            <img src="yuva.png" alt="Your Image">
+        </div>
+      <!-- Additional Image
+      <img class="additional-image" src="yuva1.png" alt="Additional Image">
+      <img class="additional-image1" src="yuva2.png" alt="Additional Image1">
+      -->
+    </div>
+
+    <div class="text">
+      <h2>Journey Begins With Yuva &nbsp &nbsp Embrace Your Youth</h2>
+      <p style="font-size: 24px;">Taking you back to the carefree days where dreams were sprouted. Yuva symbolizes the golden phase of youth.</p>
+      <button style="width: 150px; height: 50px; border-radius: 10px; border: none; font-size: 18px;background-color: white;box-shadow: 0 2px 4.9px rgba(0, 0, 0, 0.25);">View More</button>
+    </div>
+    <br>
+    
+    
+  </div>
+  <!-- Gradient Image -->
+<img class="additional-image3" src="transition yuva end.png" alt="Additional Image1">
+
+  <!-- Gradient Image
+  <img class="additional-image3" src="transition yuva end.png" alt="Additional Image1">
+  -->
+
+<div class="flex-container2">
+  
+    <div class="text1">
+      <h2>It's time to get your game face on Olympus</h2>
+      <p style="font-size: 24px;">Olympus is a vibrant celebration of athleticism, teamwork, and spirited competition. Held with great enthusiasm, this event serves as a platform for students to showcase their sporting talents </p>
+      <button style="width: 150px; height: 50px; border-radius: 10px; border: none; font-size: 18px;background-color: white;box-shadow: 0 2px 4.9px rgba(0, 0, 0, 0.25);">View More</button>
+      <br>
+      <br>
+    </div>
+    <div class="image">
+      <div class="Olympus_Image">
+        <img src="Olympus.png" alt="Your Image">
+      </div>
+      <!-- Additional Image 
+      <img class="additional-image" src=".png" alt="">
+      <img class="asset_olympus1" src="leaf 3.png" alt="asset_olympus2">
+      <img class="asset_olympus2" src="sun.png" alt="asset_olympus3">
+     
+     <img class="asset_olympus5" src="bird big.png" alt="asset_olympus6"> 
+     <img class="asset_olympus6" src="bird.png" alt="asset_olympus6"> -->
+  
+      
+    </div>
+    
+  </div>  
+
+  <!-- Gradient Image -->
+<img class="transition_olympus" src="transition_olympus.png" alt="Additional Image1">
+
+<div class="flex-container3">
+    <div class="image">
+      <div class="Yuva_Image">
+      <img src="Aurum1.png" alt="Your Image">
+    </div>
+      <!-- Additional Image  
+      <img class="additional-image" src="yuva1.png" alt="Additional Image">
+      <img class="additional-image1" src="yuva2.png" alt="Additional Image1">-->
+   
+    </div>
+    <div class="text4">
+      <h2>Where technology meets creativity</h2>
+      <p style="font-size: 24px;">Aurum combines a high energy hackathon with fun engaging events. It's a playground for tech lovers and a celebration for creativity, join us for an unforgetable experience.</p>
+      <button style="width: 150px; height: 50px; border-radius: 10px; border: none; font-size: 18px;background-color: white;box-shadow: 0 2px 4.9px rgba(0, 0, 0, 0.25);">View More</button>
+    </div>
+    
+</div>
+
+<!-- Gradient Image -->
+<img class="transition_aurum" src="transition_aurum.png" alt="Additional Image1">
+
+<!-- Verve -->
+
+<div class="flex-container4">
+  
+    <div class="text1">
+      <h2>Energize the spirit, ignite the passion - Verve</h2>
+      <p style="font-size: 24px;">Where culture comes alive! </p>
+
+      
+      <button style="width: 150px; height: 50px; border-radius: 10px; border: none; font-size: 18px;background-color: white;box-shadow: 0 2px 4.9px rgba(0, 0, 0, 0.25);">View More</button>
+    </div>
+    <br>
+    <div class="image">
+      <div class="Verve_Image">
+        <img src="Verve1.png" alt="Your Image">
+      </div>
+      <!-- Additional Image -->
+      <!-- <img class="additional-image" src=".png" alt="">
+      <img class="asset_olympus1" src="leaf 3.png" alt="asset_olympus2">
+      <img class="asset_olympus2" src="sun.png" alt="asset_olympus3">
+      <img class="asset_olympus3" src="leaf.png" alt="asset_olympus4">
+      <img class="asset_olympus4" src="leaf2.png" alt="asset_olympus5">
+     <img class="asset_olympus5" src="bird big.png" alt="asset_olympus6"> 
+     <img class="asset_olympus6" src="bird.png" alt="asset_olympus6"> -->
+  
+      
+    </div>
+    
+  </div>
+
+  
+
+  <div class="flex-container5">
+    <br>
+    <p class="p">Chronicles From the Past</p>
+    <div class="body">
+        <div class="image-container">
+            <img src="E1.png" alt="Image 1">
+            <img src="E2.png" alt="Image 2">
+            <img src="E3.png" alt="Image 3">
+            <img src="E4.png" alt="Image 4">
+            <img src="E5.png" alt="Image 5">
+            <img src="E6.png" alt="Image 6">
+        </div>
+        <br>
+        <button class="button">Meet the Council</button>
+    </div>
+</div>
+
+</body>
+
+</html>
